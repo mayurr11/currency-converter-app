@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* min-height: 90vh; */
+    background: #011627;
+    font-weight: 500;
+}
+
+.container {
+    background-color: #F2D0A4;
+    padding: 2rem;
+    border: none;
+    border-radius: 1rem;
+    min-height: 45vh;
+    min-width: 20vw;
+    margin: 2rem;
+}
+
+h1 {
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+form {
+    margin: 2rem 0;
+}
+
+form label, p{
+    font-size: 1.2rem;
+    padding: 0 0 0.5rem 0;
+}
+
+form select, button, input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin: 0.35rem 0;
+}
+
+form input {
+    border: 1px solid lightgray;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.75rem;
+}
+
+.dropdown i {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+.select-container img  {
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    border: 1px solid lightgray;   
+}
+
+.select-container select {
+    font-size: 1.1rem;
+    width: auto;
+    border: none;
+    max-width: 3rem;
+    background-color: transparent;
+}
+
+select option {
+    border: none;
+    outline: none;
+    color: #fff;
+    margin: 0.4rem 1rem;
+}
+
+.msg {
+    margin: 1rem 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+form .submit {
+    padding: 0.6rem;
+    font-weight: 800;
+    background-color: #F71735;
+    color: #FDFFFC;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all ease-in-out 0.1s;
+}
+
+button:hover {
+    transform: scale(0.99);
+    background-color: #000000;
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        min-height: 90vh;
+    }
+}
